@@ -1,0 +1,16 @@
+/*Tipografias referencia de Google fonts*/
+ 
+*{
+  borde: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'michroma'; sans-serif;
+}
+
+#main-comtain .content{
+  width: 57%;
+  height: 100%;
+  background-color: #e33d31ab;
+  
+  clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
+}
