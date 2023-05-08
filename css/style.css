@@ -1,16 +1,114 @@
-/*Tipografias referencia de Google fonts*/
- 
 *{
-  borde: 0px;
-  margin: 0px;
-  padding: 0px;
-  font-family: 'michroma'; sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-#main-comtain .content{
-  width: 57%;
-  height: 100%;
-  background-color: #e33d31ab;
-  
-  clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
+/*este es el style del fondo de la pagina*/
+body{
+  background: rgb(0,0,0);
+  background: linear-gradient(6deg, rgba(0,0,0,1) 0%, rgba(23,35,59,1) 98%);
 }
+/*este es el contenedor del menu de navegacion y el logo*/
+header{
+  width: 100%;
+  height: 70px;
+}
+
+.ancho{
+width: 80%;
+height: 70px;
+margin: auto;
+}
+/*estilos del logo*/
+.logo{
+  width: 30%;
+  height: 70px;
+  float: left;
+  padding-top: none;
+  box-sizing: border-box; 
+}
+
+.logo img{
+  display: inline-block;
+  vertical-align: middle;
+  width: 100px;
+}
+
+img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/*estilo del menu de navegacion*/
+nav{
+  width: 70%;
+  height: 70px;
+  float: left;
+  text-align: right;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+
+nav ul li{
+  display: inline;
+}
+
+nav ul li a{
+  color: #d9d9d9;
+  font-size: 13px;
+  text-decoration: none;
+  padding-left: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Inter Tight', sans-serif;
+}
+
+nav ul li a:hover{
+  color: green;
+}
+
+/* font-face{
+  font-family: 'Inter', sans-serif;
+  font-family: 'Inter Tight', sans-serif;
+} */
+
+
+
+/* #logo{
+  margin: left;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+} */
+
+/* nav{
+  height: 60px;
+  position: relative;
+  background-color: aliceblue;
+  text-align: center;
+}
+
+nav ul{
+  list-style: none;
+  display: inline-flex;
+  padding: 25px;
+  float: inline-start;
+}
+
+nav ul li{
+  
+  float: inline-end;
+}
+
+nav ul li a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 18px;
+}
+
+nav ul li a:hover{
+  background-color: #929fb3;
+} */
