@@ -1,6 +1,13 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,500&family=Inter:wght@500&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /*este es el style del fondo de la pagina*/
@@ -8,107 +15,137 @@ body{
   background: rgb(0,0,0);
   background: linear-gradient(6deg, rgba(0,0,0,1) 0%, rgba(23,35,59,1) 98%);
 }
-/*este es el contenedor del menu de navegacion y el logo*/
+
 header{
   width: 100%;
-  height: 70px;
 }
 
-.ancho{
-width: 80%;
-height: 70px;
-margin: auto;
+/* este es el contenedor header */
+.container_header{
+  max-width: 1200px;
+  height: 100px;
+  margin: auto;
+  padding: 40px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-/*estilos del logo*/
-.logo{
-  width: 30%;
-  height: 70px;
-  float: left;
-  padding-top: none;
-  box-sizing: border-box; 
-}
+
+/*la caja del del logo*/
 
 .logo img{
-  display: inline-block;
-  vertical-align: middle;
-  width: 100px;
+  width: 385px; 
 }
 
-img{
-  display: block;
-  width: 100%;
-  height: auto;
-}
-/*estilo del menu de navegacion*/
-nav{
-  width: 70%;
-  height: 70px;
-  float: left;
-  text-align: right;
-  padding-top: 40px;
-  box-sizing: border-box;
+/*caja del menu de navegacion*/
+
+.menu nav ul{
+  display: flex;
 }
 
-nav ul li{
-  display: inline;
-}
-
-nav ul li a{
-  color: #d9d9d9;
-  font-size: 13px;
-  text-decoration: none;
-  padding-left: 15px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  font-family: 'Inter', sans-serif;
-  font-family: 'Inter Tight', sans-serif;
-}
-
-nav ul li a:hover{
-  color: green;
-}
-
-/* font-face{
-  font-family: 'Inter', sans-serif;
-  font-family: 'Inter Tight', sans-serif;
-} */
-
-
-
-/* #logo{
-  margin: left;
-  height: 100px;
-  width: 100px;
-  text-align: center;
-} */
-
-/* nav{
-  height: 60px;
-  position: relative;
-  background-color: aliceblue;
-  text-align: center;
-}
-
-nav ul{
+.menu nav ul li{
   list-style: none;
-  display: inline-flex;
-  padding: 25px;
-  float: inline-start;
+  padding: 0px 20px;
 }
 
-nav ul li{
-  
-  float: inline-end;
-}
-
-nav ul li a{
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
+.menu nav ul li a{
   font-size: 20px;
-  padding: 18px;
+  text-decoration: none;
+  color: #d9d9d9;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: 'Inter', sans-serif;
 }
 
 nav ul li a:hover{
-  background-color: #929fb3;
-} */
+  color: rgb(196,252,116);
+}
+
+
+/*portada bienvenida*/
+
+main{
+  max-width: 1200px;
+  height: calc(100vh); 
+  padding: 40px;
+  margin: auto;
+}
+
+.cover{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.text_de_bienvenida {
+  width: 40%;
+  padding-left: 10px;
+}
+
+.text_de_bienvenida h1{
+  font-size: 60px;
+  font-family: 'Sedgwick Ave Display', cursive;
+  color: #05abf2;  
+}
+
+
+.buttons-cover{
+  display: flex;
+  margin-top: 40px;
+}
+
+.btn_register-cover{
+  padding: 12px 30px;
+  border: none;
+  background: #4eb235;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 14px;
+  border-radius: 55px;
+  transition: background, color, 300ms;
+}
+
+.btn_register-cover:hover{
+  background: #92b988;
+}
+
+.imagen_de_bienvenida{
+  width: 60%;
+}
+
+.imagen_de_bienvenida img{
+  width: 100%;
+}
+
+/*banner*/
+
+section{
+  max-width: 1200px;
+  height: calc(100vh); 
+  padding: 30px 20px;
+  margin: auto;
+}
+
+.container_banner{
+    margin-top: 80px;
+}
+
+.banner{
+  height: 250px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.container_banner img{
+  width: 400px;
+}
+
+.text_banner p{
+  background: white;
+  position:relative;
+  text-justify: auto;
+}
