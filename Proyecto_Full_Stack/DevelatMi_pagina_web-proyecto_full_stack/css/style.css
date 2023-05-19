@@ -1,0 +1,252 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,500&family=Inter:wght@500&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*este es el style del fondo de la pagina*/
+body{
+  background: rgb(0,0,0);
+  background: linear-gradient(6deg, rgba(0,0,0,1) 0%, rgba(23,35,59,1) 98%);
+}
+
+header{
+  height: 100px;
+}
+
+/* este es el contenedor header */
+.container_header{
+  max-width: 1200px;
+  height: 100px;
+  margin: auto;
+  padding: 40px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*la caja del del logo*/
+
+.logo img{
+  width:300px; 
+}
+
+/*caja del menu de navegacion*/
+
+.menu nav ul{
+  display: flex;
+}
+
+.menu nav ul li{
+  list-style: none;
+  padding: 0px 15px;
+
+}
+
+.menu nav ul li a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #d9d9d9;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: 'Inter', sans-serif;
+  padding-left: 15px;
+}
+
+nav ul li a:hover{
+  color: rgb(196,252,116);
+}
+
+
+/*portada bienvenida*/
+
+main{
+  max-width: 1200px;
+  height: calc(100vh); 
+  padding: 90px;
+  margin: auto;
+}
+
+.cover{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.text_de_bienvenida {
+  width: 50%;
+  font-size: 40px;
+  font-family:'Sedgwick Ave Display', cursive ;
+  color: #05abf2; 
+}
+
+.hola{
+  position: relative; 
+  margin-right: ;
+  
+}
+
+/* .text_de_bienvenida h1{
+  font-size: 60px;
+  font-family: 'Sedgwick Ave Display', cursive;
+  color: #05abf2;  
+} */
+
+
+.buttons-cover{
+  display: flex;
+  margin-top: 40px;
+}
+
+.btn_contact-cover{
+  padding: 10px 30px;
+  border: none;
+  background: #4eb235;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 14px;
+  border-radius: 55px;
+  transition: background, color, 300ms;
+}
+
+.btn_contact-cover:hover{
+  background: #1f720a;
+}
+
+.imagen_de_bienvenida{
+  width: 50%;
+}
+
+.imagen_de_bienvenida img{
+  width: 583px ;
+  /* padding-right: 15px; */
+}
+
+/*banner*/
+
+.container_banner{
+  max-width: 1200px; 
+  padding: 40px;
+  margin: auto;
+  padding-top: 50px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.container_banner img{
+  width: 50%;
+  display: flex;
+}
+.container_banner img{
+  width: 550px;
+}
+.text_banner{
+  width: 50%;
+}
+
+.text_banner p{
+  width: 250px;
+  height: 250px;
+  text-justify: justify;
+  font-size: 24px;
+  font-family: 'Inter', sans-serif;
+  margin-left: 50px;
+  color: #f6f3f3;
+  padding-bottom: 50px;
+}
+
+/*container leguajes*/
+
+.container_lenguajes{
+  /* max-width: 1200px; 
+  padding: 40px;
+  margin: auto;
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; */
+width: 250px;
+display: block;
+min-height: 1px;
+float: left;
+padding-right: 24px;
+padding-left: 24px;
+position: relative;
+}
+
+.img {
+  width: 100px;
+}
+
+/* .container_lenguajes_1{
+  width: 250px;
+} */
+  /* padding-left: 40px;
+} */
+.container_lenguajes_2{
+  width: 250px;
+  /* padding-left: 40px; */
+}
+.container_lenguajes_3{
+  width: 250px;
+
+  /* padding-left: 40px; */
+}
+.container_lenguajes_4{
+  width: 250px;
+/* 
+  padding-left: 40px; */
+}
+
+/* .container_lenguajes #img/bienvenida6.png{
+width :167px;
+height: 250;
+} */
+
+.footer {
+  max-width: 1200px; 
+  padding: 40px;
+  margin: auto;
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*stilo servicio*/
+#servicio.html {
+
+}
+.main{
+  height: 100px;
+}
+.h1{
+  font-size: 128px;
+
+}
+
+/*stilo sobre mi*/
+
+/*stilo contacto*/
+
+body{
+  height: 800px;
+  background-image: url("recursos.img/frame 7 (2).png");
+  background-size: cover;
+  background-size: 25rem;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 10rem;
+
+}
